@@ -1,0 +1,18 @@
+package day1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Wand wand1 = new Wand();
+		wand1.setName("雷の精霊の杖");
+		wand1.setPower(250);
+		Wizard wizard1 = new Wizard();
+		wizard1.setName("Clair");
+		wizard1.setHp(200);
+		wizard1.setMp(300);
+		Hero hero1 = new Hero();
+		hero1.setName("Wolfric Storm Croak");
+		wizard1.heal(hero1);
+	}
+
+}
